@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant Management</title>
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Autour One' >
+
+</head>
+<body>
+	<body style="background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;" background="">
+<center><h1 style="font-family: courier;font-size: 70px; margin: 0px; color: #f32f19e0; background-color: #0000009e;">Restaurant Management System</h1></center>
+	<center style="font-size: 30px; font-family: 'Lucida Console', Courier, monospace;color: #ffffff; background-color: #0000009e;">Near Gayatri Hostel</center>
+			<center><?php include 'nav.php';?></center>
+					
+			<form style="border-radius: 5px; background-color: #efe3105c; margin-left: 250px; margin-right: 250px;" method="post" action="index.php">
+				<table align="center" style="font-family: 'Autour One';text-align: center; background-color: #ffffff00; " cellspacing="9px">
+					<tr>
+						<th colspan="4" style="font-size: 50px;">
+							Menu
+						</th>
+					</tr>
+					<tr>
+						<th>Sl. No.</th>
+						<th>Products</th>
+						<th>MRP</th>
+						<th>No. of Quantity</th>
+					</tr>
+					<tr>
+						<td>1.</td>
+						<td>Chicken Roll</td>
+						<td>Rs.70</td>
+						<td><input type="number" value="0" min="0" max="1000"></td>
+					</tr>
+					<tr>
+						<td>2.</td>
+						<td>Paneer Roll</td>
+						<td>Rs.60</td>
+						<td><input type="number" value="0" min="0" max="1000" name="b"></td>
+					</tr>
+					<tr>
+						<td>3.</td>
+						<td>Mix Veg Roll</td>
+						<td>Rs.75</td>
+						<td><input type="number" value="0" min="0" max="1000" name="a\c"></td>
+					</tr>
+
+					<tr>
+						<td>4.</td>
+						<td>Chicken Chowmin</td>
+						<td>Rs.80</td>
+						<td><input type="number" value="0" min="0" max="1000" name="d"></td>
+					</tr>
+					<tr>
+						<td>5.</td>
+						<td>Paneer Chowmin</td>
+						<td>Rs.70</td>
+						<td><input type="number" value="0" min="0" max="1000" name="e"></td>
+					</tr>
+					<tr>
+						<td>6.</td>
+						<td>Mix Veg Roll</td>
+						<td>Rs.80</td>
+						<td><input type="number" value="0" min="0" max="1000" name="f"></td>
+					</tr>
+
+					<tr>
+						<td>7.</td>
+						<td>Chicken Soup</td>
+						<td>Rs.80</td>
+						<td><input type="number" value="0" min="0" max="1000" name="g"></td>
+					</tr>
+					<tr>
+						<td>8.</td>
+						<td>Veg Soup</td>
+						<td>Rs.50</td>
+						<td><input type="number" value="0" min="0" max="1000" name="h"></td>
+					</tr>
+					<tr>
+						<td>9.</td>
+						<td>Paneer Soup</td>
+						<td>Rs.60</td>
+						<td><input type="number" value="0" min="0" max="1000" name="i"></td>
+					</tr>
+					<tr>
+						<td>10.</td>
+						<td>Mix Veg Soup</td>
+						<td>Rs.75</td>
+						<td><input type="number" value="0" min="0" max="1000" name="j"></td>
+					</tr>
+					<tr>
+						<td colspan="2">Table Number</td>
+						<td colspan="2"><input type="number" name="Tablename"></td>
+					</tr><tr><tr></tr>
+					<tr>
+						<th colspan="5"><button type="button" class="btn btn-success">Place Order</button></th>
+						
+					</tr>
+				</table>
+			</form>
+
+</p>
+</body>
+</html>
