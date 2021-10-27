@@ -10,6 +10,28 @@
     <link rel="stylesheet" href="https://hungercease.com/assets/css/responsive.css?ver=1.0">
 
 <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <style type="text/css">
+	.topnav {
+  overflow: hidden;
+  background-color: #000000ba;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+</style>
 </head>
 <body>
 <body style="background-position: center;
@@ -17,7 +39,12 @@
   background-size: cover;" background="">
 <center><h1 style="font-family: courier;font-size: 70px; margin: 0px; color: #f32f19e0; background-color: #0000009e;">Restaurant Management System</h1></center>
     <center style="font-size: 30px; font-family: 'Lucida Console', Courier, monospace;color: #ffffff; background-color: #0000009e;">Near Gayatri Hostel</center>
-            <center><?php include 'nav.php';?></center>
+            <center>
+  <div class="topnav">
+   <a href="index.php">Order Now</a>
+   <a href="Aboutus.php">About Us</a>
+  <a href="contactus.php">Contact Us</a>
+  </div></center>
 <center><h2> For any queries related to Our Products Feel Free To Reach Us</h2></center>
 <div class="contact-info-sec text-center">
                                     <div class="row">
